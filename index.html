@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nova — a modern responsive landing page built for the Yuva Intern Week 1 task.">
+  <title>Nova — Build Better, Together</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#" class="logo" aria-label="Nova home">NOVA<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section: primary value proposition and call-to-action -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">SMARTER. SIMPLER. FASTER.</p>
+          <h1>Turn your ideas into <span>something real.</span></h1>
+          <p class="hero-text">
+            Nova gives ambitious creators a clean, focused space to plan,
+            build and launch their next big idea.
+          </p>
+          <div class="hero-actions">
+            <a href="#features" class="btn btn-primary">Explore Features</a>
+            <a href="#about" class="btn btn-secondary">Learn More</a>
+          </div>
+          <div class="trust-row">
+            <strong>10K+</strong><span>creators inspired</span>
+            <strong>4.9/5</strong><span>user rating</span>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Product preview">
+          <div class="card-top">
+            <span class="status-dot"></span>
+            <span>PROJECT OVERVIEW</span>
+            <span class="card-menu">•••</span>
+          </div>
+          <div class="progress-label">
+            <span>Launch progress</span><strong>78%</strong>
+          </div>
+          <div class="progress"><span></span></div>
+          <div class="mini-grid">
+            <div><small>Tasks</small><strong>24 / 31</strong></div>
+            <div><small>Team</small><strong>08</strong></div>
+            <div><small>Days left</small><strong>12</strong></div>
+            <div><small>Milestone</small><strong>03</strong></div>
+          </div>
+          <div class="activity">
+            <div class="avatar">A</div>
+            <div><strong>Design system updated</strong><small>Just now</small></div>
+            <span>✓</span>
+          </div>
+          <div class="activity">
+            <div class="avatar avatar-alt">R</div>
+            <div><strong>Landing page approved</strong><small>12 min ago</small></div>
+            <span>✓</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature highlights -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHY NOVA</p>
+          <h2>Everything you need to move forward.</h2>
+          <p>Simple tools, thoughtful design and zero unnecessary complexity.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon">✦</div>
+            <h3>Stay Focused</h3>
+            <p>Keep priorities clear with an interface designed around the work that matters.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">↗</div>
+            <h3>Move Faster</h3>
+            <p>Organize ideas, track progress and make decisions without slowing your momentum.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">◎</div>
+            <h3>Work Together</h3>
+            <p>Bring your team into one shared workspace and keep everyone aligned.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / supporting content -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">MADE FOR CREATORS</p>
+          <h2>Less noise. More progress.</h2>
+        </div>
+        <p>
+          Great products begin with clear thinking. Nova combines a calm
+          visual experience with practical workflows so you can spend less
+          time managing your process and more time creating.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact call-to-action -->
+    <section class="cta section" id="contact">
+      <div class="container cta-box">
+        <div>
+          <p class="eyebrow">READY TO START?</p>
+          <h2>Your next idea deserves a great beginning.</h2>
+        </div>
+        <a href="mailto:hello@example.com" class="btn btn-light">Get Started →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Nova. Built with HTML, CSS & JavaScript.</p>
+      <p>Yuva Intern · Week 1</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
